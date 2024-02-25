@@ -17,7 +17,7 @@ struct Options<'r> {
     name: Option<&'r str>,
 }
 
-// Try visiting:
+// Try visiting:Lang
 //   http://127.0.0.1:8000/hello/world
 #[get("/world")]
 fn world() -> &'static str {
